@@ -33,13 +33,4 @@ H2/MySQL/PostgreSQL: Relational database for storing book data.
 Lombok: Reduces boilerplate code for getter, setter, and constructor methods.
 Jakarta Persistence API: Manages database entities and operations.
 
-API Endpoints :-
-HTTP    Method	Endpoint	                Description
-POST	/add-record-book	                Add a new book to the database.
-GET	  /show-all	                        Retrieve all book records.
-GET	  /show-by-genre/{genre}	          Retrieve books by genre.
-GET	  /show-by-book-name/{name}	        Search books by name (partial match).
-GET 	/show-by-author/{author}	        Search books by author's name.
-GET	  /show-by-published-date/{date}	  Search books by publication date.
-PUT 	/update-book-by-name/{name}	      Update a book's details by its name.
-DELETE /delete-by-price-range/{min}/{max}	Delete books within a price range.
+
